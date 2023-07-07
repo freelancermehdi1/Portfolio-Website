@@ -1,0 +1,40 @@
+/* Font Used on Body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.text-primary {
+    color: orangered;
+}
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-tittle {
+    color: rgb(20, 20, 20);
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+/* Button Color */
+.btn-primary{
+    background: orangered;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 5px 10px ;
+}
