@@ -10,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-tittle {
     color: rgb(20, 20, 20);
@@ -30,11 +31,23 @@ nav a{
 }
 /* Button Color */
 .btn-primary{
-    background: orangered;
+    background: #FD6E0A;
     border-radius: 5px;
     border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700px;
     padding: 5px 10px ;
+}
+/* Header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 500px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+       width: 500px;
 }
